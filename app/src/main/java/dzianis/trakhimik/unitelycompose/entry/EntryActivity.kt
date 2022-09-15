@@ -34,6 +34,8 @@ class EntryActivity : ComponentActivity() {
 @Composable
 fun DefaultPreview() {
     UnitelyComposeTheme {
-        MainPage()
+        Surface {
+            MainPage()
+        }
     }
 }
